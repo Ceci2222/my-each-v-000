@@ -1,7 +1,5 @@
 def my_each(words)
   while i < words.length
-    yield(words)
+    yield
   end
 end
-
-my_ea
