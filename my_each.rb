@@ -1,6 +1,6 @@
 def my_each(words)
   i = 0
-  while i < words.length
+  while i < words.size
   words do |word|
     word
     yield words[i]
@@ -8,5 +8,3 @@ def my_each(words)
   end
 end
 end
-
-my_each(words) 
