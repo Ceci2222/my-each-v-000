@@ -4,7 +4,7 @@ def my_each(words)
   words.collect do |word|
     word
     yield words[i]
-    
+    i += 1
   end
 end
 end
