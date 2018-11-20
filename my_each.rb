@@ -8,3 +8,5 @@ def my_each(words)
   end
 end
 end
+
+my_each(words) 
