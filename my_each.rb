@@ -1,9 +1,8 @@
 def my_each(array)
-  while i < less
+  while i < array.length
   array.collect do |word|
       puts "Not sure what to do"
       yield
-      i += 1
   end
     "Stop"
   end
