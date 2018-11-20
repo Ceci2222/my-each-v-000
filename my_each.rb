@@ -1,12 +1,11 @@
-def my_each(array)
-  while i < array.length
-  array.collect do |word|
-    yield
+def my_each(words)
+  while i < words.length
+    yield(words)
   end
     "Stop"
   end
 end
 
-my_each(array) do |word|
+my_each(words) do |word|
   puts word
 end
